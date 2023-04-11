@@ -420,6 +420,7 @@
             type="text" 
             name="user-name" 
             class="modal-input"
+            id="user-name"
             required>
             <svg class="modal-icon" width="18"
             height="24">
@@ -434,6 +435,7 @@
           type="text" 
           name="user-tel" 
           class="modal-input" 
+          id="user-tel"
           required>
           <svg class="modal-icon" width="18"
           height="24">
@@ -448,12 +450,17 @@
           type="text" 
           name="user-email" 
           class="modal-input" 
+          id="user-email"
           required>
           <svg class="modal-icon" width="18"
           height="24">
             <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
           </svg>
         </div>
+      </div>
+      <div class="modal-comments">
+        <label class="input-text" for="user-text">Enter comment</label>
+      <textarea name="user-tex" id="user-tex" class="modal-textarea" placeholder="Text input"></textarea>
       </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
