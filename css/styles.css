@@ -868,13 +868,13 @@ margin-bottom: 4px;
 
    .input-check:checked + .check-text::before {
 background-image: url(../images/check.svg);
-background-color: #404BBF;
+background-color: var(--select-color);
 background-position: center;
 background-repeat: no-repeat;
    }
 
    .model-close-btn:is(:hover, :focus) {
-      background-color: #404BBF;
+      background-color: var(--select-color);
       color: #ffffff;
       }
 
